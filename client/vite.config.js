@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),tailwind()],
   server:{
     proxy:{
-      "/api":"http://localhost:3001"
+      "/api":"https://mern-blog-app-kic0.onrender.com"
     }
   }
 })

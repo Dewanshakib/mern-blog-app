@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.FRONTEND_VITE_SERVER,
+    origin: "https://mern-blog-app-kic0.onrender.com",
     credentials: true,
   })
 );
